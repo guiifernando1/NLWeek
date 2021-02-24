@@ -1,28 +1,12 @@
-import express from 'express';
+import "reflect-metadata";
+import express from "express";
+import "./database"; //não precisa passar o index;
+import { router } from "./routers";
 
 const app = express();
 
-/**
-* GET => busca
-* POST => salvar
-* PUT => alterar
-* DELETE
-* PATCH => alteração especifica
-*/
-
-
-app.get("/", (request, response) => {
-    return response.json({ message: "hello World"});
-
-})
-
-// 1 Param => rota(recurso API)
-// 2 param => request, response
-
-app.post("/", (request, response) => {
-    //recebeu os dados para salvar
-    return response.json({message: "Os dados foram salvos com sucesso!"});
-})
+app.use(express.json());
+app.use( router );
 
 app.listen(3333, () => console.log("Server is running"));
 
