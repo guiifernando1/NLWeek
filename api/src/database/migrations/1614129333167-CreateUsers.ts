@@ -1,5 +1,5 @@
-import {MigrationInterface, QueryRunner} from "typeorm";
-import { Table } from "typeorm/schema-builder/table/Table";
+import {IsNull, MigrationInterface, QueryRunner, Table} from "typeorm";
+//import { Table } from "typeorm/schema-builder/table/Table";
 
 export class CreateUsers1614129333167 implements MigrationInterface {
 
@@ -11,20 +11,20 @@ export class CreateUsers1614129333167 implements MigrationInterface {
                     {
                         name: "id",
                         type: "uuid",
-                        isPrimary: true,
+                        isPrimary: true
                     },
                     {
                         name: "name",
-                        type: "varchar",    
+                        type: "varchar"    
                     },
                     {
                         name: "email",
-                        type: "varchar",
+                        type: "varchar"
                     },
                     {
                         name: "created_at",
                         type: "timestamp",
-                        default: "now()",
+                        default: "now()"
                     },
                 ],
             })
