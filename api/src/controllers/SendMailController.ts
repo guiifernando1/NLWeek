@@ -24,9 +24,11 @@ class SendMailController {
       });
     }
     
-    const survey = await surveysRepository.findOne({id: survey_id})
+    const survey = await surveysRepository.findOne({
+      id: survey_id,
+    });  //select survey_id = id
 
-    if(!survey) {
+    if(!survey) {    //alreadyexists??
       return response.status(400).json({
         error: "Survey does not exists!"
       })
@@ -38,8 +40,6 @@ class SendMailController {
       survey_id,
     });
     await surveysUsersRepository.save(surveyUser);
-
-    return response.json(surveyUser);
     //enviar email para o usuario
 
     await SendMailService.execute(email, survey.title, survey.description);

@@ -70,8 +70,7 @@ export class CreateSurveysUsers1614258313760 implements MigrationInterface {
                             onUpdate: "CASCADE" // Caso o user for removido, cascade na tabela filha (essa) atualizando
                         }
                     ]
-                }
-            )
+                })
         );
     }
 
