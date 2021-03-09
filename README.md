@@ -15,7 +15,7 @@
   </a>
 </p>
 
-## Tecnologias
+## ⤵ Tecnologias
 
 - [Node.js](https://nodejs.org/en/)
 - [YARN](https://yarnpkg.com/)
@@ -25,10 +25,10 @@
 - [Jest](https://jestjs.io/)
 - [NodeMailer](https://nodemailer.com/about/)
 
-## Comandos para começar
+## ⤵ Comandos para começar
 
 ```bash
-- git clone https://github.com/Lucas-Angelo/nps-api.git
+- git clone https://github.com/guiifernando1/NLWeek.git
 - cd nps-api
 ```
 
