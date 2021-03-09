@@ -3,14 +3,9 @@
     <img width="300px" src="https://i.imgur.com/JkVMEgs.png">
     <br><br>
     <p align="center">
-      <a href="#-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-      <a href="#-demo">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
       <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
       <a href="#-comandos-para-começar">Comandos para começar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
       <a href="#-testes">Testes</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-      <a href="#-links-do-projeto">Links</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-      <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-      <a href="#-license">Licença</a>
   </p>
 </h3>
 
@@ -20,7 +15,7 @@
   </a>
 </p>
 
-Tecnologias
+## Tecnologias
 
 - [Node.js](https://nodejs.org/en/)
 - [YARN](https://yarnpkg.com/)
@@ -29,3 +24,52 @@ Tecnologias
 - [TypeORM](https://typeorm.io/)
 - [Jest](https://jestjs.io/)
 - [NodeMailer](https://nodemailer.com/about/)
+
+## Comandos para começar
+
+```bash
+- git clone https://github.com/Lucas-Angelo/nps-api.git
+- cd nps-api
+```
+
+Dependências
+
+```bash
+- npm install
+```
+
+ou
+
+```bash
+- yarn install
+```
+
+Gerar o arquivo de database.sqlite do Sqlite3, onde ficaram armazenados as tabelas da API
+
+```bash
+- yarn startTestDB
+```
+
+Criando tabela das migrations do Sqlite3 por meio do cli do TypeOrm
+
+```bash
+- yarn typeorm migration:run
+```
+
+Inicializando uma instância local (Script já no package.json)
+
+```bash
+- yarn dev
+```
+
+## ⤵ Testes
+
+Para testar se instalou a aplicação corretamente e se passa em todos os testes de integração, utilize o comando:
+
+```bash
+- yarn test
+```
+
+<h4 align="center">
+    Feito com 💜 by <a href="https://www.linkedin.com/in/guilhermefernandodasilva/" target="_blank">Guilherme Fernando</a>
+</h4>
