@@ -4,7 +4,7 @@
     <br><br>
     <p align="center">
       <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-      <a href="#-comandos-para-começar">Comandos para começar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+      <a href="#-comandos-para-começar">Comandos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
       <a href="#-testes">Testes</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   </p>
 </h3>
@@ -25,7 +25,7 @@
 - [Jest](https://jestjs.io/)
 - [NodeMailer](https://nodemailer.com/about/)
 
-## ⤵ Comandos para começar
+## ⤵ Comandos 
 
 ```bash
 - git clone https://github.com/guiifernando1/NLWeek.git
