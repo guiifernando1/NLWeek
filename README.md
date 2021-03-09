@@ -19,3 +19,13 @@
     <img src="https://i.imgur.com/1o7urkT.png">
   </a>
 </p>
+
+Tecnologias
+
+- [Node.js](https://nodejs.org/en/)
+- [YARN](https://yarnpkg.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Express](https://expressjs.com/pt-br/)
+- [TypeORM](https://typeorm.io/)
+- [Jest](https://jestjs.io/)
+- [NodeMailer](https://nodemailer.com/about/)
